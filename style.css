@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+   
+}
+.addtocard{
+
+}
+.container{
+    width: 100%;
+    padding:0 15px;
+    margin: auto;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+.topbar{
+    background-color: black;
+    color: white;
+}
+.topbar .auth >div a{
+    color: white;
+}
+.topbar .container {
+	padding: 5px;
+}
+.topbar .container .icon a{
+    margin-right: 8px;
+}
+.topbar .auth .divider{
+    padding: 0 5px;
+}
+.auth a{
+    padding: 0.35rem;
+}
+.topbar .container .auth{
+   
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+/* nav  start */
+nav .top{
+margin-top: 12px;
+}
+nav .top .contract img,
+nav .top .time img {
+    margin-right: 12px;
+}
+nav .navbar .container a{
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.4s;
+}
+nav .navbar .container a.active{
+    background-color: yellow;
+}
+nav .navbar .container a:hover{
+    background-color: yellow;
+}
+.magic-shadow{
+    background-color: white;
+    position: relative;
+}
+.magic-shadow:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 69px;
+    background-image: url(img/icon/shadow.svg);
+    bottom: -22px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* nav  end */
+/* hero  start */
+header.hero{
+    height: 600px;
+    background-image: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    overflow: hidden;
+}
+header.hero .wellcome span{
+    margin-right: 10px;
+}
+header.hero h1{
+
+}
+header.hero h1 span {
+	color: red;
+}
+header.hero p{
+    margin-bottom: 10px;
+}
+header.hero button{
+
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 16px;
+}
+.btn-yellow{
+    background-color:yellow;
+    color:black
+}
+.btn-yellow:hover{
+    background:black;
+    color:yellow;
+    border: 1px solid black;
+}
+.btn-black{
+    background: black;
+    color: white;
+}
+.btn-black:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+header.hero button:first-child{
+    margin-right: 10px;
+}
+header.hero .container{
+    position: relative;
+}
+header.hero .hero-img {
+    position: absolute;
+    top: -45px;
+    right: 40px;
+}
+/* hero  end */
+/* top product  start */
+section{
+    padding: 4rem 0;
+}
+section.top-product{
+    background: whitesmoke;
+}
+.section-heading{
+    text-align: center;
+    position: relative;
+    margin-bottom: 6rem;
+}
+.section-heading:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(img/icon/hr.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -40px;
+}
+section.top-product .food-slider .food-card{
+    background: white;
+    padding: 1.5rem 0;
+    border-radius: 4px;
+}
+section.top-product .food-slider .food-card .product-img img{
+    width: 80%;
+    height: 200px;
+    padding-bottom: 1rem;
+    object-fit: contain;
+}
+hr{
+    opacity: 0.6;
+    border: 1px solid wheat;
+    margin: 1rem 0;
+}
+section.top-product .food-slider .food-card {
+	width: 100%;
+	margin-right: 12px;
+}
+.text-center{
+    text-align: center;
+}
+section.top-product .food-slider .food-card button{
+    border: 2px solid yellow;
+    border-radius: 4px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+   
+
+}
+section.top-product .food-slider .food-card button img{
+    background-color: rgb(196, 196, 70);
+    padding: 7px;
+    margin-right: 8px;
+    
+}
+.slider {
+	padding: 0px 50px;
+	margin-right: -12px;
+}
+/* top product  end */
+/*fresh meal start */
+
+
+
+.fressmealimg img{
+    width: 80%;
+}
+.flex-1{
+    flex:1;
+}
+.mealcontent{
+
+}
+.mealcontent h2 {
+	margin-bottom: 22px;
+	font-size: 31px;
+	line-height: 36px;
+}
+.mealcontent p {
+	font-size: 17px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+/*fresh meal end */
+/*service end */
+.our-service h1{
+padding-top: 20px;
+}
+.our-service h3{
+margin-bottom: 12px;
+}
+.our-service p{
+margin-bottom: 15px;
+}
+section.our-service{
+    background-color: whitesmoke;
+    padding: 0px 200px;
+    
+}
+section.our-service .container {
+	
+	padding-bottom: 58px;
+}
+section.our-service .service-card {
+	background-color: white;
+	text-align: center;
+	margin: 0px 10px;
+	/* padding: 0px 0px; */
+	padding-bottom: 50px;
+}
+/*service end */
+/*timer end */
+.big-deal{
+    background: linear-gradient(
+        rgba(35,43,56,0.9),
+        rgba(35,43,56,0.9)
+    ),url(img/food-table.jpg );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.big-deal h1{
+    color: white;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -2rem;
+}
+.timer >div{
+    margin-right: 2rem;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.timer >div span{
+     ;
+
+}
+/*timer meal end */
+/*timer meal end */
+.lates-news{
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 0;
+}
+.card img{
+    width: 100%;
+}
+.articel-wrapper{
+    display: flex;
+}
+.subscribe{
+    background-color: yellow;
+   
+}
+.subrow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-around; */
+	justify-items: ;
+	padding: 30px;
+}
+.subleft{
+
+}
+.subleft img {
+	
+}
+.subright{
+
+}
+.subright p {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+.subright h1 {
+	/* font-size: 30px; */
+	/* padding: fo; */
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 19px;
+}
+.inputsub {
+	/* padding: 10px; */
+	padding: 12px 0px;
+	/* outline: navajowhite; */
+    position: relative;
+    
+}
+.inputsub span {
+	background-colo: black;
+	border: 1px solid;
+	position: absolute;
+	right: 313px;
+	top: 20px;
+	background: yellow;
+	/* color: whitesmoke; */
+	padding: 3px;
+}
+.inputsub input {
+	/* outline: none; */
+	padding: 12px;
+	border: none;
+	padding-right: 123px;
+	border-radius: 5px;
+}
+.contract-us{
+    
+}
+.contractinfo {
+	flex: 1;
+	padding: 4rem;
+}
+.map{
+    flex: 1;
+    
+}
+.contract-info{
+    display: flex;
+    justify-content: center;
+}
+.conticon{
+   
+}
+.contract-info>div>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contract-info>div>div img{
+    margin-right: 10px;
+}
+.call-us {
+	/* display: block; */
+	/* display: block; */
+	/* overflow: hidden; */
+	display: flex;
+	flex-direction: column;
+	/* margin-bottom: -1px; */
+}
+.footercont{
+   padding: 20px 100px;
+   margin: auto;
+   background-color: black;
+}
+.row{
+display: flex;
+justify-content: center;
+margin-right: -20px;
+color: white;
+
+
+}
+.col-1{
+flex:1;
+margin: 20px;
+}
+.col-1 ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.col-1 h2{
+    text-align: center;
+}
+.col-1 p{
+text-align: center;
+}
+.col-1 a{
+margin-top: 20px;
+}
+.footerbtn {
+	margin-top: 20px;
+	text-align: center;
+}
